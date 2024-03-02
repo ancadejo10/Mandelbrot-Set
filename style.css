@@ -34,6 +34,12 @@ input, div{
     -ms-user-select: none;
     user-select: none;
     color: #000000;
+
+    -webkit-user-select: text !important;
+    user-select: text !important;
+    touch-action: manipulation;
+
+    font-family: fantasy;
 }
 
 body {

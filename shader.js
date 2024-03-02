@@ -88,7 +88,7 @@ const fragSource = `
             return;
         }
 
-        vec2 dp = (pos/vec2(zoom,zoom)) - position;
+        vec2 dp = pos/vec2(zoom,zoom) - position;
         vec2 r = dp;
 
         for(float i = 0.0; i > -1.0; i+=1.0){
