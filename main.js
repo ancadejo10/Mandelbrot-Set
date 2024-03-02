@@ -125,6 +125,9 @@ QButton(moveLeft, () => {movingX = -1}, () => {movingX = 0});
 
 QButton(moveSprint, () => {sprint = 4}, () => {sprint = 2});
 
+QButton(genMore, () => {movingT = 1}, () => {movingT = 0});
+QButton(genLess, () => {movingT = -1}, () => {movingT = 0});
+
 document.addEventListener("DOMContentLoaded", function(){
     window.requestAnimationFrame(Render)
 })

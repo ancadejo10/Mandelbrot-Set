@@ -1,5 +1,4 @@
 input{
-    padding: 25px;
     margin: 5px;
     text-align: center;
     border-radius: 20px;
@@ -25,4 +24,14 @@ input, div{
     -ms-user-select: none;
     user-select: none;
     color: #cc0000;
-  }
+}
+
+#controller input{
+    padding: 25px;
+    
+}
+
+#zoomController input{
+    padding: 15px;
+    font-size: 10px;
+}

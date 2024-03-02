@@ -9,6 +9,9 @@ const moveRight = document.getElementById("moveRight");
 const moveLeft = document.getElementById("moveLeft");
 const moveSprint = document.getElementById("moveSprint");
 
+const getMore = document.getElementById("getMore");
+const getLess = document.getElementById("getLess");
+
 const canvas = document.getElementById("contextFrame")
 const gl = canvas.getContext('webgl');
 
