@@ -35,15 +35,15 @@ input, div{
     user-select: none;
     color: #000000;
 
-    -webkit-user-select: text !important;
-    user-select: text !important;
-    touch-action: manipulation;
-
-    font-family: fantasy;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: none;
 }
 
 body {
     margin: 0; 
     height: 100%; 
     overflow: hidden;
+
+    touch-action: manipulation;
 }
