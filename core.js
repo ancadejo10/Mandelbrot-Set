@@ -13,6 +13,7 @@ const getMore = document.getElementById("getMore");
 const getLess = document.getElementById("getLess");
 
 const moveColorF = document.getElementById("colorF");
+const cursorV = document.getElementById("vCursor");
 
 const canvas = document.getElementById("contextFrame")
 const gl = canvas.getContext('webgl');
@@ -79,4 +80,14 @@ gl.vertexAttribPointer(objOffset, 2, gl.FLOAT, false, 0, 0);
 function QButton(btn, f1, f2){
     btn.addEventListener("touchstart", f1);
     btn.addEventListener("touchend", f2)
+}
+
+function QDestroy(list){
+    list.forEach((item) => {
+        item.parentElement.removeChild(item);
+    })
+}
+
+function QTouch() {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 }

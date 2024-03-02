@@ -2,9 +2,9 @@ input{
     margin: 5px;
     text-align: center;
     border-radius: 20px;
-    border-color: black;
+    border-color: rgb(0, 0, 0);
     color: black;
-    background-color: rgb(206, 206, 206);
+    background-color: rgb(255, 255, 255);
 }
 
 div{
@@ -33,13 +33,18 @@ input, div{
     -moz-user-select: none;
     -ms-user-select: none;
 
-    color: #840000;
+    color: #000000;
 }
 
 input, div, body{
     -webkit-user-select: none;
     touch-action: none;
     user-select: none;
+}
+
+p{
+    margin: 30px;
+    font-size: 15px;
 }
 
 body {

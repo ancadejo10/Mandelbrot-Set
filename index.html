@@ -9,11 +9,25 @@
 </head>
 
 <body>
+    <p id="controlsMenu">
+        Controls: <br><br>
+        WASD: Move  <br>
+        E: Zoom in  <br>
+        Q: Zoom out  <br>
+        I: Zoom faster step  <br>
+        O: Zoom slower step  <br>
+        Left Shirt: Sprint  <br>
+        T: Increase iterations  <br>
+        R: Decrease iterations  <br>
+        M: Change color function  <br>
+        C: Virtual cursor  <br>
+    </p>
     <table>
         <tr>
             <td id="controller">
-                <div id="zoom">Color</div>
+                <div id="zoom">Visual</div>
                 <input id="colorF" type="button" value="Color">
+                <input id="vCursor" type="button" value="Cursor">
                 <hr>
                 <div id="zoom">Controller</div>
                 <input class="useless" type="button" value="" style="display: inline;">
@@ -30,8 +44,8 @@
                 <input id="zoomMore" type="button" value="+">
                 <input id="zoomLess" type="button" value="-">
                 <div></div>
-                <input id="stepMore" type="button" value="Fast">
-                <input id="stepLess" type="button" value="Slow">
+                <input id="stepMore" type="button" value="Faster">
+                <input id="stepLess" type="button" value="Slower">
                 <div></div>
                 <input id="moveSprint" type="button" value="         Sprint         ">
                 <hr>

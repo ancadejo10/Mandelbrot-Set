@@ -43,6 +43,12 @@ function Render(){
     
     canvas.width = scrX;
     canvas.height = scrY;
+    
+    if(!QTouch()){
+        canvas.style.position = "absolute";
+        canvas.style.top = "0px";
+        canvas.style.left = (window.innerWidth-scrX)/2 + "px";
+    }
 
     gl.viewport(0,0,scrX,scrY);
     gl.clearColor(0.0, 0.0, 0.0, 1.0);
@@ -129,6 +135,18 @@ QButton(genMore, () => {movingT = 1}, () => {movingT = 0});
 QButton(genLess, () => {movingT = -1}, () => {movingT = 0});
 
 QButton(moveColorF, () => {colorF++});
+QButton(cursorV, () => {cursor = (cursor == 1 ? 0 : 1);});
+  
+if (QTouch()) {
+    QDestroy([document.getElementById("controlsMenu")]);
+} else {
+    QDestroy([
+        document.getElementById("controller"),
+        document.getElementById("zoomController")
+    ]);
+
+    canvas.style.margin = "auto;";
+}
 
 document.addEventListener("DOMContentLoaded", function(){
     window.requestAnimationFrame(Render)
