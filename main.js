@@ -128,6 +128,8 @@ QButton(moveSprint, () => {sprint = 4}, () => {sprint = 2});
 QButton(genMore, () => {movingT = 1}, () => {movingT = 0});
 QButton(genLess, () => {movingT = -1}, () => {movingT = 0});
 
+QButton(moveColorF, () => {colorF++});
+
 document.addEventListener("DOMContentLoaded", function(){
     window.requestAnimationFrame(Render)
 })

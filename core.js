@@ -12,6 +12,8 @@ const moveSprint = document.getElementById("moveSprint");
 const getMore = document.getElementById("getMore");
 const getLess = document.getElementById("getLess");
 
+const moveColorF = document.getElementById("colorF");
+
 const canvas = document.getElementById("contextFrame")
 const gl = canvas.getContext('webgl');
 

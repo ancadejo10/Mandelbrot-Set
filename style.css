@@ -11,6 +11,16 @@ div{
     text-align: center;
 }
 
+#controller input{
+    padding: 25px;
+    
+}
+
+#zoomController input{
+    padding: 15px;
+    font-size: 10px;
+}
+
 .useless{
     background-color: rgba(0, 0, 0, 0);
     color: rgba(0, 0, 0, 0);
@@ -23,15 +33,11 @@ input, div{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    color: #cc0000;
+    color: #000000;
 }
 
-#controller input{
-    padding: 25px;
-    
-}
-
-#zoomController input{
-    padding: 15px;
-    font-size: 10px;
+body {
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
 }
