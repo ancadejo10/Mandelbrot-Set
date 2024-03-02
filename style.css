@@ -1,12 +1,11 @@
 input{
-    padding: 10px;
-    margin: 10px;
+    padding: 25px;
+    margin: 5px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 20px;
     border-color: black;
     color: black;
     background-color: rgb(206, 206, 206);
-    padding: 20px;
 }
 
 div{
@@ -18,3 +17,12 @@ div{
     color: rgba(0, 0, 0, 0);
     border-color: rgba(1, 1, 1, 0);
 }
+
+input div{
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #cc0000;
+  }
