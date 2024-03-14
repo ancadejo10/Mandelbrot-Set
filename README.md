@@ -1,6 +1,7 @@
 # Mandelbrot Set
 <hr>
 This is a simple web page that let you to interact with one of the most popular fractals.
+<a href="https://ancadejo10.github.io/Mandelbrot-Set/">Mandelbrot Set</a>
 
 <hr>
 
@@ -24,10 +25,15 @@ Just watching Youtube videos about WebGL(I work with OpenGL but WebGL is painly 
 So?
 -
 
-I wont update this things.
-It's open source(Give me credits pls).
-Anyone can use this.
-Dont tell you wrote the original software.
-Wikipedia is usefull :D.
+* I wont update this things.
+* It's open source(Give me credits pls).
+* Anyone can use this.
+* Dont tell you wrote the original software.
+* Wikipedia is usefull :D.
+
+Conclusion
+-
+
+Why is this even have a conclusion?
 
 ## The End
