@@ -2,7 +2,6 @@
 <hr>
 This is a simple web page that let you to interact with one of the most popular fractals.
 <a href="https://ancadejo10.github.io/Mandelbrot-Set/">Mandelbrot Set</a>
-
 <hr>
 
 Features:
@@ -12,6 +11,7 @@ Features:
 * This is optimized for phones but it's avaliable also for computers.
 * It's not infinite because the float precision.
 * Some devices aren't going to render the fractal correctly(Old devices).
+* This is just a port of other app i made. Much powerfull, double precision for x10000000 more zoom(one with 7 zeros). Also more slower :V
 
 How?
 -
