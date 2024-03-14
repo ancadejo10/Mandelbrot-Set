@@ -11,7 +11,6 @@ Features:
 * This is optimized for phones but it's avaliable also for computers.
 * It's not infinite because the float precision.
 * Some devices aren't going to render the fractal correctly(Old devices).
-* 
 
 How?
 -
@@ -31,4 +30,4 @@ Anyone can use this.
 Dont tell you wrote the original software.
 Wikipedia is usefull :D.
 
-## 
+## The End
