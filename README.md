@@ -28,7 +28,7 @@ So?
 * I wont update this things.
 * It's open source(Give me credits pls).
 * Anyone can use this.
-* Dont tell you wrote the original software.
+* You cant tell you wrote the original software.
 * Wikipedia is usefull :D.
 
 Conclusion
