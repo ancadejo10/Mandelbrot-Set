@@ -11,7 +11,7 @@ Features:
 * This is optimized for phones but it's avaliable also for computers.
 * It's not infinite because the float precision.
 * Some devices aren't going to render the fractal correctly(Old devices).
-* This is just a port of other app i made. Much powerfull, double precision for x10000000 more zoom(one with 7 zeros), also more slower :V
+* This is just a port of other app i made that was much powerfull, double precision for x10000000 more zoom(one with 7 zeros), also more slower :V
 
 How?
 -
