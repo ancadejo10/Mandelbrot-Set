@@ -10,7 +10,7 @@ const fragSource = `
     #ifdef GL_FRAGMENT_PRECISION_HIGH
         precision highp float;
     #else
-        precision highp float;
+        precision mediump float;
     #endif
 
     uniform vec2 screen;
